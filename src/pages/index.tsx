@@ -1,15 +1,10 @@
 import * as React from "react";
 import type { HeadFC } from "gatsby";
-import { Button, Navbar, Footer, Hero } from "react-daisyui";
+import { Button, Navbar, Hero } from "react-daisyui";
 
 const IndexPage = () => {
-  const [visible, setVisible] = React.useState<boolean>(false);
-  const toggleVisible = () => {
-    setVisible(!visible);
-  };
-
   return (
-    <main className="max-w-5xl m-auto">
+    <main className="w-full">
       <div className="flex w-full component-preview p-4 items-center justify-center gap-2 font-sans">
         <Navbar>
           <div className="flex-none">
@@ -54,26 +49,33 @@ const IndexPage = () => {
         </Navbar>
       </div>
 
-      <Hero>
-        <Hero.Content>
-          <img
-            src="https://api.lorem.space/image/book?w=260&h=400"
-            className="max-w-sm rounded-lg shadow-2xl"
-          />
-          <div>
-            <h1 className="text-5xl font-bold">来都来了</h1>
-            <p className="py-6">
+      <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div className="md:flex">
+          <div className="md:shrink-0">
+            <img
+              className="h-48 w-full object-cover md:h-full md:w-48"
+              src="https://api.lorem.space/image/game?w=150&h=150"
+              alt="Man looking at item at a store"
+            ></img>
+          </div>
+          <div className="p-8">
+            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+              Case study
+            </div>
+            <a
+              href="#"
+              className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+            >
+              来都来了
+            </a>
+            <p className="mt-2 text-slate-500">
               最近我在学前端开发，这个站点是用Gatsby + tailwind CSS 创建的。
-              <br></br>
               以后这个站点应该会放一些个人介绍还有我的App产品之类的东西。
-              <br></br>
               记得下次再来看看哈。
             </p>
-            <Button color="primary">Get Started</Button>
           </div>
-        </Hero.Content>
-      </Hero>
-
+        </div>
+      </div>
     </main>
   );
 };
