@@ -28,11 +28,8 @@ const IndexPage = () => {
           >
             Twitter
           </Button>
-          <Button
-            href="https://twitter.com/leucasio"
-            className="mt-4 w-5/6 md:w-1/3"
-          >
-            comming soon
+          <Button href="/fastgear/" className="mt-4 w-5/6 md:w-1/3">
+            FastGear
           </Button>
         </div>
       </div>

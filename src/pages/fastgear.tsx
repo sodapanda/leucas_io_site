@@ -4,7 +4,7 @@ import { Avatar, Button, Divider } from "react-daisyui";
 
 const IndexPage = () => {
   return (
-    <main className="w-screen">
+    <main className="w-screen md:w-3/5 md:mx-auto">
       <div className="flex flex-col  mx-auto w-full">
         <div className="flex flex-row items-center bg-cyan-600">
           <Avatar
@@ -70,7 +70,7 @@ const IndexPage = () => {
       <Button
         href="https://play.google.com/store/apps/details?id=link.shuidada.fastgear"
         size="lg"
-        className="fixed bottom-0 left-0 w-full"
+        className="fixed bottom-0  w-full md:w-3/5 md:mx-auto"
       >
         Get Started
       </Button>
