@@ -44,7 +44,7 @@ const IndexPage = () => {
             className="m-2"
           />
           <p className="text-black text-xs font-light mx-2">
-            With FastGear, it only takes me 2 days to master gear shifting and
+            With FastGear, it takes me only 2 days to master gear shifting and
             clutch control.
           </p>
         </div>
