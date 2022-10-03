@@ -23,7 +23,7 @@ const IndexPage = () => {
             <br />
           </p>
           <Button
-            href="https://twitter.com/leucasio"
+            href="#"
             className="mt-6 w-5/6 md:w-1/3"
           >
             Twitter
