@@ -1,5 +1,6 @@
 import * as React from "react";
 import type { HeadFC } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import { Avatar, Button, Divider } from "react-daisyui";
 
 const IndexPage = () => {
@@ -59,6 +60,12 @@ const IndexPage = () => {
             allowfullscreen
           ></iframe>
         </div>
+        <Divider />
+        <StaticImage
+          src="../images/control.png"
+          alt="good"
+          className="w-full"
+        />
         <Divider />
         <p className="text-lg mx-4 font-bold">With FastGear you get:</p>
         <div className="text-sm mx-4 mt-2">🚀 Faster Gear shifts</div>
