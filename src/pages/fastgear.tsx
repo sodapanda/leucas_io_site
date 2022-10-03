@@ -4,7 +4,7 @@ import { Avatar, Button, Divider } from "react-daisyui";
 
 const IndexPage = () => {
   return (
-    <main className="w-screen md:w-3/5 md:mx-auto">
+    <main className="w-screen md:max-w-md md:mx-auto">
       <div className="flex flex-col  mx-auto w-full">
         <div className="flex flex-row items-center bg-cyan-600">
           <Avatar
@@ -49,7 +49,7 @@ const IndexPage = () => {
           </p>
         </div>
 
-        <div className="mx-auto w-full">
+        <div className="mx-auto w-full aspect-video px-4">
           <iframe
             className="w-full aspect-video"
             src="https://www.youtube.com/embed/vEn3C4rsYs0"
@@ -69,8 +69,10 @@ const IndexPage = () => {
       </div>
       <Button
         href="https://play.google.com/store/apps/details?id=link.shuidada.fastgear"
+        responsive
         size="lg"
-        className="fixed bottom-0  w-full md:w-3/5 md:mx-auto"
+        color="success"
+        className="fixed bottom-0  w-full md:max-w-md md:mx-auto"
       >
         Get Started
       </Button>
