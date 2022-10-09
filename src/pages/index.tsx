@@ -8,7 +8,7 @@ const IndexPage = () => {
       <div className="w-full flex h-screen">
         <div className="w-full m-auto flex flex-col items-center">
           <Avatar
-            src="/img/leucas_channel_logo.png"
+            src="/img/leucas_channel_logo_1.png"
             border
             borderColor="primary"
             shape="circle"
