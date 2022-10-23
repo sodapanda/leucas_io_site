@@ -26,7 +26,8 @@
     "gatsby-transformer-sharp": "^4.23.1",
     "react": "^18.1.0",
     "react-daisyui": "^2.4.2",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-timer-hook": "^3.0.5"
   },
   "devDependencies": {
     "@types/node": "^17.0.45",
