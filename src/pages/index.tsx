@@ -22,11 +22,11 @@ const IndexPage = () => {
             👨‍💻 I build (Android | iOS | Web) Apps
             <br />
           </p>
-          <Button
-            href="#"
-            className="mt-6 w-5/6 md:w-1/3"
-          >
+          <Button href="https://twitter.com/leucasio" className="mt-6 w-5/6 md:w-1/3">
             Twitter
+          </Button>
+          <Button href="https://blog.leucas.io/" className="mt-6 w-5/6 md:w-1/3">
+            Blog
           </Button>
           <Button href="/fastgear/" className="mt-4 w-5/6 md:w-1/3">
             FastGear
